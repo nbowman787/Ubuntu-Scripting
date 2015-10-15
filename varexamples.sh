@@ -8,20 +8,6 @@ animals=([red]="cardinal" [green]="frog" [blue]="lobster")
 
 #main
 
-# display the colour array, no matter how much stuff it has in it
-#for colour in "${colours[@]}"; do
-#   echo "the colours array contains ${colours[colour]}"
-#done
-
-#for colour in "${colours[@]}"; do
- #   echo "the colours array contains the value $colour"
-#done
-
-#index=0
-#for ((index=0;$index < ${#colours}; index++)); do
- #   echo "the colours array has the value ${colours[index]} at position $index"
-#done
-
 # num=0
 endOfArray=$(( ${#colours} -1))
 numberOfColours=${#colours}
@@ -49,3 +35,16 @@ echo "==========="
 
 #echo "the animals array contains ${animals[red]}, ${animals[blue]}, ${animals[green]}"
 #echo "the array colours has the following values: ${animals[@]}"
+# display the colour array, no matter how much stuff it has in it
+#for colour in "${colours[@]}"; do
+#   echo "the colours array contains ${colours[colour]}"
+#done
+
+#for colour in "${colours[@]}"; do
+ #   echo "the colours array contains the value $colour"
+#done
+
+#index=0
+#for ((index=0;$index < ${#colours}; index++)); do
+ #   echo "the colours array has the value ${colours[index]} at position $index"
+#done
